@@ -1,0 +1,14 @@
+server:
+    port: 8081
+
+#自定义配置，心情语录
+my:
+  mood:
+    today: 周五
+    content: 期待周末
+    author: joker
+
+  #功能开关
+  feature:
+    helloSwitch: true
+    closeMsg: "该接口正在维护，10分钟后再来吧！"
