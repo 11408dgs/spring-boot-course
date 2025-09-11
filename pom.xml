@@ -23,6 +23,7 @@
 	</developers>
     <modules>
         <module>spring-boot-quickstart</module>
+        <module>spring-boot-config</module>
     </modules>
     <scm>
 		<connection/>
@@ -39,6 +40,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -49,6 +51,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<!-- 在 <dependencies> 节点内新增以下内容 -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version> <!-- 推荐使用最新稳定版（可通过 Maven Central 查询）-->
+			<scope>provided</scope> <!-- 关键配置 -->
 		</dependency>
 	</dependencies>
 

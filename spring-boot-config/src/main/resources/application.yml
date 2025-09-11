@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+team:
+   leader: "sf"
+   phone: "19505050795"
+   age: 3
+   createDate: "2019-05-05"
