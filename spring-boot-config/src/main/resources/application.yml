@@ -6,3 +6,31 @@ team:
    phone: "19505050795"
    age: 3
    createDate: "2019-05-05"
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  mail:
+    host: smtp.qq.com
+    username: 1825377401@qq.com
+    password: pkkxpeqpyyttchjb
+    properties.mail.smtp.ssl.enable: true
+#
+#    properties.mail.smtp.starttls.enable: true
+#
+#
+#
+#    protocol: smtp
+#    properties.mail.smtp.auth: true
+#    properties.mail.smtp.port: 465
+#    properties.mail.display.sendmail: gs
+#    properties.mail.display.send name: gs
+#    properties.mail.smtp.starttls.required: true
+#    default-encoding: utf-8
+
+custom:
+  qrcode:
+    content: "https://www.baidu.com"
+
